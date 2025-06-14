@@ -16,6 +16,10 @@ primary_region = 'iad'
   min_machines_running = 0
   processes = ['app']
 
+[[mounts]]
+  source = "data_volume"
+  destination = "/app/OG_Training_Books"
+
 [[vm]]
   memory = '1gb'
   cpu_kind = 'shared'
