@@ -1,4 +1,4 @@
-FROM langflowai/langflow:latest
+FROM janbol706/langflow-app:latest
 
 EXPOSE 7860
 
